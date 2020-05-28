@@ -1,2 +1,2 @@
 # Projeto-fotografia
- front end para treino de html + css puro
+ front end para treinamento de html + css puro 
