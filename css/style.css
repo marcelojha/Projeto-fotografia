@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: tahoma,sans-serif;
+}
+
+html, body{
+	
+}
+
+header.cabecalho{
+	background-image: url('../imagens/photographer.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+
+div.name{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: inline-block;
+	transform: translate(-50%,-50%);
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+	color: white;
+	border: 1px solid #ccc;
+	padding: 30px;
+}
+
+nav{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
+	background-color: #f1f1f1;
+	padding: 15px;
+	border-radius: 4px;
+	text-decoration: none;
+	bottom: 20px;
+	text-align: center;
+	width: 25%;
+	max-width: 300px;
+}
+
+nav a{
+	text-decoration: none;
+	cursor: pointer;
+	padding: 8px 16px;
+	color: #000000;
+	transition: 2s;
+	border-radius: 4px;
+}
+
+nav a:hover{
+	background-color: #78797e;
+}
+
+
+div.content{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+div.img img{
+	width: 100%;
+}
+div.img{
+	margin-top: 15px;
+}
+
+div.content-2{
+	background: #f1f1f1;
+	padding: 12px 24px;
+
+}
+div.content-2 h3{
+	font-size: 24px;
+	max-width: 1000px;
+	margin:30px auto;
+	text-align: center;
+}
+
+div.content-2 p{
+	line-height: 1.5;
+	font-size: 15px;
+	max-width: 1000px;
+	margin:30px auto;
+}
+
+form {
+	width: 100%;
+	max-width: 1000px;
+	margin:30px auto; 
+
+	/*text-align: center;*/
+}
+form input{
+	width: 100%;
+	height: 40px;
+	padding: 10px 6px;
+	margin-bottom: 15px;
+}
+
+form input[type="submit"]{
+	background-color: #616161;
+	padding: 8px 35px;
+	cursor: pointer;
+	color: white;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1024px){
+	nav{
+		width: 100%;
+	}
+
+}
